@@ -6,7 +6,7 @@ tags:
   - devops
 category:
   - linux
-thumbnail: http://67.205.170.54:8989/Content/Images/logos/128.png
+thumbnail: images/tech/Bash-new.sh-600x600.png
 ---
 
 I put together a quick bash shell script to view system info at a glance.  I know there are existing tools for this like [inxi](https://smxi.org/docs/inxi.htm), but I wanted to put something together I can copypasta.  This is specific to RHEL, Centos and Sci Linux but it can be easily adapted for other distros.

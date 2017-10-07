@@ -6,7 +6,7 @@ tags:
   - hexo
 category:
   - blog
-thumbnail: http://67.205.170.54:8989/Content/Images/logos/128.png
+thumbnail: https://raw.githubusercontent.com/hexojs/awesome-hexo/master/hexo-logo.png
 ---
 [Hexo](https://hexo.io/) is a simple, lightweight node blog framework. It didn't include a SystemD Unit file, so I created one:
 

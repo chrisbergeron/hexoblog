@@ -6,7 +6,7 @@ tags:
   - devops
 category:
   - linux
-thumbnail: http://67.205.170.54:8989/Content/Images/logos/128.png
+thumbnail: images/tech/Bash-new.sh-600x600.png
 ---
 ## Inxi
 [inxi](https://smxi.org/docs/inxi.htm) is a super handy system info utility.  These days I typically work with ephemeral instances / microservers, so I just dispose of infrastructure that flakes out.  Occassionally I'll need to see what's up with a box so I've put together some common invocations of inxi below for reference:

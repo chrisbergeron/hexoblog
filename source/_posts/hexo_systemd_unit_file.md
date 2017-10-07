@@ -6,6 +6,7 @@ tags:
   - hexo
 category:
   - blog
+thumbnail: http://67.205.170.54:8989/Content/Images/logos/128.png
 ---
 [Hexo](https://hexo.io/) is a simple, lightweight node blog framework. It didn't include a SystemD Unit file, so I created one:
 
@@ -13,7 +14,7 @@ category:
 
 ### /lib/system/systemd/hexo.service
 
-``` bash
+```bash
 [Service]
 WorkingDirectory=/home/[yourdirectory]/blog
 ExecStart=/bin/hexo server -p80
@@ -52,4 +53,3 @@ Oct 07 02:27:38 centos-2gb-nyc1-01 hexo[8997]: INFO  Hexo is running at http://l
 ```
 I recommend [Digital Ocean](http://pages.news.digitalocean.com/dc/AyKQ30vur1Nt8H30LIWxk-j5xHmafGnoECQwn1ooO77yBt0FNL3mSORKe-qOjqAUuFeCU3DjjCwgDxcGj4qztQ==/v1U40XUb0V6DEYm0I03k000) for great cloud hosting.
 
-If you found this info useful, I appreciate tips via Bitcoin: [1L3f7e74htniX6by6R3WaYNvS8tM7kygK4](https://blockchain.info/address/1L3f7e74htniX6by6R3WaYNvS8tM7kygK4) or Dogecoin.
